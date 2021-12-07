@@ -9,6 +9,9 @@ export default function App() {
     <>
       <Router>
         <Routes>
+          <Route exact path={ROUTES.BROWSE} element={ <Browse /> } />
+          <Route exact path={ROUTES.SIGN_IN} element={ <SignIn /> } />
+          <Route exact path={ROUTES.SIGN_UP} element={ <SignUp /> } />
           <Route exact path={ROUTES.HOME} element={ <Home /> } />
         </Routes>
       </Router>
